@@ -1,0 +1,11 @@
+{
+	  "name": "rofler"
+	, "version": "0.2.0"
+	, "main": "build/default/rofler"
+	, "description": "you so funny i laugh on the floor rolling"
+	, "scripts":
+		{ "preinstall": "node-waf configure"
+		, "install": "node-waf build install"
+		}
+}
+
